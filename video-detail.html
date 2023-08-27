@@ -65,12 +65,17 @@ https://templatemo.com/tm-556-catalog-z
         <div class="row mb-4">
             <h2 class="col-12 tm-text-primary">Video title goes here</h2>
         </div>
-        <div class="row tm-mb-90">            
-            <div class="col-xl-8 col-lg-7 col-md-6 col-sm-12">
+        <div class="row tm-mb-90">   
+            <ul id="load-video" class="list">
+                <video autoplay controls id="tm-video">
+                    <source src="https://d3h1vu2agxyise.cloudfront.net/ArrayToString.mp4" type="video/mp4">
+                </video>
+            </ul>         
+            <!-- <div class="col-xl-8 col-lg-7 col-md-6 col-sm-12">
                 <video autoplay controls id="tm-video">
                     <source src="https://d3h1vu2agxyise.cloudfront.net/ArrayToString.mp4" type="video/mp4">
                 </video>  
-            </div>
+            </div> -->
             <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
                 <div class="tm-bg-gray tm-video-details">
                     <p class="mb-4">
@@ -258,7 +263,8 @@ https://templatemo.com/tm-556-catalog-z
         </div>
     </footer>
     
-    <script src="js/plugins.js"></script>
+    <script src="js/load-video.js"></script>
+    <!-- <script src="js/plugins.js"></script> -->
     <script>
         $(window).on("load", function() {
             $('body').addClass('loaded');

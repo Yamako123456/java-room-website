@@ -24,9 +24,9 @@ const app = {
                 app.getNpcs();
                 //add custom event listeners for video detail page
                 break;
-            case 'main-page':
-                //Do something
-                break;
+            // case 'main-page':
+            //     //Do something
+            //     break;
             default:
                 app.somethingElse();
         }
@@ -78,6 +78,5 @@ const app = {
         }, 3000);
     }
 }
-app.init();
 
 app.init(); //Calling init() to get the whole thing started
